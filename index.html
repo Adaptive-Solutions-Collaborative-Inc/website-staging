@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Adaptive Solutions Collaborative, Inc. uses advanced technologies for humanitarian purposes."
+    content="Adaptive Solutions Collaborative, Inc. applies advanced technologies to humanitarian and public-interest challenges through practical, responsible collaboration."
   />
   <title>Adaptive Solutions Collaborative, Inc.</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/site.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <a class="brand" href="#">Adaptive Solutions Collaborative, Inc.</a>
-      <nav aria-label="Main navigation">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Adaptive Solutions Collaborative, Inc.</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <ul class="nav-list">
-          <li><a href="#mission">Mission</a></li>
-          <li><a href="#focus">Focus Areas</a></li>
-          <li><a href="#engage">Engage</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="focus-areas.html">Focus Areas</a></li>
+          <li><a href="collaborate.html">Collaborate</a></li>
+          <li><a href="transparency.html">Transparency</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
         </ul>
       </nav>
     </div>
@@ -30,36 +36,37 @@
     <section class="hero">
       <div class="container">
         <p class="eyebrow">Humanitarian Technology</p>
-        <h1>Practical technology for mission-driven collaboration.</h1>
+        <h1>Advanced technology in service of public benefit.</h1>
         <p class="lead">
           Adaptive Solutions Collaborative, Inc. is a nonprofit organization that
-          applies advanced and disruptive technologies in support of humanitarian,
-          climate resilience, disaster and emergency preparedness, and public-interest work.
+          works with mission-aligned collaborators to design, develop, and deploy
+          practical technology solutions for humanitarian and public-interest challenges.
         </p>
-        <p class="hero-actions">
-          <a class="button primary" href="#engage">Explore Collaboration</a>
-          <a class="button secondary" href="#mission">Learn More</a>
-        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="collaborate.html">Explore Collaboration</a>
+          <a class="button secondary" href="mission.html">Learn More</a>
+        </div>
       </div>
     </section>
 
-    <section id="mission" class="section">
+    <section class="section">
       <div class="container narrow">
-        <h2>Mission</h2>
+        <h2>What We Do</h2>
         <p>
-          Our mission is to use advanced and disruptive technologies for
-          humanitarian purposes by collaborating with organizations that bring
-          meaningful challenges, domain knowledge, and mission alignment.
+          ASCI exists to help bridge the gap between meaningful mission needs and the
+          thoughtful use of advanced technologies. We collaborate with organizations
+          that understand the problem space and seek practical, responsible, and
+          effective solutions that serve people and communities.
         </p>
       </div>
     </section>
 
-    <section id="focus" class="section alt">
+    <section class="section alt">
       <div class="container">
         <h2>Focus Areas</h2>
-        <div class="grid">
+        <div class="card-grid">
           <article class="card">
-            <h3>Preparedness & Resilience</h3>
+            <h3>Preparedness &amp; Resilience</h3>
             <p>
               Tools and approaches that help communities and organizations better
               understand capability gaps and strengthen readiness.
@@ -67,89 +74,127 @@
           </article>
 
           <article class="card">
-            <h3>Cybersecurity & Awareness</h3>
+            <h3>Cybersecurity &amp; Risk Awareness</h3>
             <p>
-              Educational and simulation-based resources that improve risk
-              awareness, preparedness, and decision support.
+              Educational and simulation-based resources that improve risk awareness,
+              preparedness, and decision support.
             </p>
           </article>
 
           <article class="card">
             <h3>Applied AI for Public Benefit</h3>
             <p>
-              Responsible use of AI to support analysis, learning, planning, and
-              mission-focused problem solving.
+              Responsible uses of artificial intelligence to support learning,
+              planning, analysis, and mission-focused problem solving.
             </p>
           </article>
 
           <article class="card">
             <h3>Collaborative Solution Design</h3>
             <p>
-              Partnerships that combine technical expertise with real-world needs
-              to create practical, sustainable solutions.
+              Partnerships that combine domain expertise, lived experience, and
+              technical capability to produce useful and sustainable outcomes.
             </p>
           </article>
         </div>
+
+        <p class="section-link">
+          <a href="focus-areas.html">View all focus areas</a>
+        </p>
       </div>
     </section>
 
-    <section id="engage" class="section">
+    <section class="section">
       <div class="container narrow">
+        <h2>Why ASCI</h2>
+        <p>
+          Adaptive Solutions Collaborative is designed to work at the intersection
+          of technical expertise and humanitarian purpose. We aim to help organizations
+          explore practical solutions that might otherwise remain out of reach due to
+          limited technical capacity, limited time, or insufficient resources.
+        </p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
         <h2>Ways to Engage</h2>
-        <p>
-          We welcome conversations with philanthropic institutions, nonprofit
-          organizations, researchers, technologists, and donors whose goals align
-          with our mission.
+        <div class="card-grid">
+          <article class="card">
+            <h3>Philanthropic Institutions</h3>
+            <p>
+              Foundations and grantmakers interested in practical, technology-enabled
+              approaches to humanitarian challenges.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Nonprofits &amp; Community Organizations</h3>
+            <p>
+              Organizations with deep understanding of mission needs and real-world
+              challenges that may benefit from technical collaboration.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Researchers &amp; Technologists</h3>
+            <p>
+              People interested in applying advanced technical skills in support of
+              mission-driven, public-interest work.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Donors &amp; Supporters</h3>
+            <p>
+              Individuals and institutions whose support can help bring practical
+              technical capabilities to important mission areas.
+            </p>
+          </article>
+        </div>
+
+        <p class="section-link">
+          <a href="collaborate.html">Learn how collaboration works</a>
         </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container narrow">
+        <h2>Trust, Responsibility, and Transparency</h2>
         <p>
-          If your organization is facing a challenge where thoughtful use of
-          technology may help, we invite you to reach out.
+          ASCI is committed to the ethical and responsible application of technology
+          in humanitarian contexts. We believe credibility is strengthened by clear
+          governance, mission alignment, thoughtful collaboration, and transparency
+          about how work is selected and carried out.
+        </p>
+        <p class="section-link">
+          <a href="transparency.html">Read more about transparency and governance</a>
         </p>
       </div>
     </section>
 
-    <section id="contact" class="section alt">
+    <section class="section callout">
       <div class="container narrow">
-        <h2>Contact Information</h2>
+        <h2>Start a Conversation</h2>
         <p>
-          To explore collaboration or funding alignment, contact:
+          If your organization is exploring a challenge where thoughtful use of
+          technology may help, we welcome the opportunity to talk.
         </p>
-        <p class="contact">
-          <h3>Email</h3>
-          <a href="mailto:asci@segma.com">asci@segma.com</a>
-          <h3>Mailing Address</h3>
-          <p>
-            Adaptive Solutions Collaborative, Inc.<br>
-            15113 Watergate Road, Silver Spring, MD, 20905
-          </p>
-          <p class="small-note">
-          Our main ASCI email address is currently supported by our collaborator, Segma, LLC.
-        </p>
-      </div>
-      
-    </section>
-     <section id="about" class="section alt">
-      <div class="container narrow">
-        <h2>About Us</h2>
-          <h3>Leadership Team</h3>
-          <p>
-            Jide Odubiyi, President/CEO<br>
-            George Meekins, VP/CTO/Treasurer<br>
-            Michael Ayeni, Secretary/Resident Agent
-          </p>
-        </p>
-        <h3>Official Nonprofit Status</h3>
-        <p>
-          IRS Employer Identification Number<br>
-          EIN: 39-4441893
-        </p>
+        <a class="button primary" href="contact.html">Contact ASCI</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Adaptive Solutions Collaborative, Inc.</p>
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-title">Adaptive Solutions Collaborative, Inc.</p>
+        <p class="footer-tag">Technology for public benefit.</p>
+      </div>
+      <div>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="transparency.html">Transparency</a></p>
+      </div>
     </div>
   </footer>
 </body>
