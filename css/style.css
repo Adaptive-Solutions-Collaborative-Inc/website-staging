@@ -61,8 +61,21 @@ a:focus {
 .brand {
   text-decoration: none;
   color: var(--text);
-  font-size: 1.1rem;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand span {
+  font-size: 0.8rem;
+  line-height: 1;
+  padding-top: 4px;
+}
+
+.brand img {
+  height: 40px;
+  vertical-align: middle;
 }
 
 .nav-list {
