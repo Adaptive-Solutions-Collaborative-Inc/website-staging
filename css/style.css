@@ -58,24 +58,36 @@ a:focus {
   flex-wrap: wrap;
 }
 
-.brand {
+/* New Brand Header Styles */
+.brand-link {
   text-decoration: none;
-  color: var(--text);
-  font-weight: 700;
+  color: inherit;
+}
+
+.logo-lockup {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
-.brand span {
-  font-size: 0.8rem;
-  line-height: 1;
-  padding-top: 4px;
+.logo-icon {
+  height: 60px;
 }
 
-.brand img {
-  height: 40px;
-  vertical-align: middle;
+.logo-divider {
+  border-left: 1px solid var(--border);
+  height: 50px;
+}
+
+.logo-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.logo-tagline {
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .nav-list {
@@ -189,5 +201,41 @@ a:focus {
 
   .section {
     padding: 3rem 0;
+  }
+
+  .site-header .container {
+    justify-content: center;
+  }
+
+  .logo-lockup {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .logo-divider {
+    display: none;
+  }
+
+  .logo-icon {
+    height: auto;
+    width: 150px;
+  }
+
+  .logo-name {
+    font-size: 1.2rem;
+  }
+
+  .logo-tagline {
+    font-size: 1rem;
+  }
+
+  .nav-toggle {
+    display: none; /* Assuming the new header replaces nav on mobile */
+  }
+
+  .site-nav {
+    display: none; /* Assuming the new header replaces nav on mobile */
   }
 }

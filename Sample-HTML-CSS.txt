@@ -1,0 +1,49 @@
+HTML
+
+<header class="brand-header">
+  <div class="logo-lockup">
+    <img src="images/ASCI-icon.png" alt="ASCI logo icon" class="logo-icon" />
+
+    <div class="logo-divider"></div>
+
+    <div class="logo-text">
+      <div class="logo-name">
+        Adaptive Solutions<br />
+        Collaborative, Inc.
+      </div>
+      <div class="logo-tagline">Technology for Public Good</div>
+    </div>
+  </div>
+</header>
+
+CSS
+
+@media (max-width: 700px) {
+  .brand-header {
+    padding: 24px;
+  }
+
+  .logo-lockup {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .logo-divider {
+    display: none;
+  }
+
+  .logo-icon {
+    width: 180px;
+  }
+
+  .logo-name {
+    font-size: 32px;
+  }
+
+  .logo-tagline {
+    font-size: 18px;
+  }
+}
+
+
