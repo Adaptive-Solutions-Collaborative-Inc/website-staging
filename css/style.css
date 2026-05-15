@@ -67,7 +67,7 @@ a:focus {
 .logo-lockup {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 6px;
 }
 
 .logo-icon {
@@ -75,7 +75,7 @@ a:focus {
 }
 
 .logo-divider {
-  border-left: 1px solid var(--border);
+  border-left: 1px solid var(--muted);
   height: 50px;
 }
 
